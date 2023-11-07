@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/CSS/styles.css">
 		<script src="https://kit.fontawesome.com/0a8ca7d1bc.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="https://fontawesome.com/icons/facebook-f?f=brands&s=solid" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -15,7 +15,7 @@
       <div class="header__inner">
         <div class="header__logo">MoGo</div>
         
-        <nav>
+        <nav class="nav">
             <a class="nav__link" href="#">MoGo</a>
             <a class="nav__link" href="https://github.com/AzovUA">My GitHub</a>
             <a class="nav__link" href="">My telegram</a>
@@ -39,19 +39,19 @@
                 <div class="slider__inner">
                     <div class="slider__item active">
                         <span class="slider__num">01</span>
-                        Intro
+                        <span class="slider__text">Intro</span>
                     </div>
                     <div class="slider__item">
                         <span class="slider__num">02</span>
-                        Work
+                        <span class="slider__text">Work</span>
                     </div>
                     <div class="slider__item">
                         <span class="slider__num">03</span>
-                        About
+                        <span class="slider__text">About</span>
                     </div>
                     <div class="slider__item">
                         <span class="slider__num">04</span>
-                        Contacts
+                        <span class="slider__text">Contacts</span>
                     </div>
                 </div>
             </div>
@@ -140,30 +140,25 @@
 		</div>
 
 		<div class="services">
-			<div class="services__item">
+			<div class="services__item services__item--border">
 				<img class="services__icon" src="assets/image/service/photography.png" alt="">
 
 				<div class="services__title">Photography</div>
 				<div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
 			</div>
-			<div class="services__item">
+			<div class="services__item services__item--border">
 				<img class="services__icon" src="assets/image/service/webdesign.png" alt="">
 
 				<div class="services__title">Web Design</div>
 				<div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
 			</div>
-			<div class="services__item">
+			<div class="services__item services__item--border">
 				<img class="services__icon" src="assets/image/service/creativity.png" alt="">
 
 				<div class="services__title">Creativity</div>
 				<div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
 			</div>
-			
-		</div>
 
-		<hr>
-
-		<div class="services">
 			<div class="services__item">
 				<img class="services__icon" src="assets/image/service/seo.png" alt="">
 
@@ -218,7 +213,7 @@
 
 			<div class="wedo">
 					<div class="wedo__item">
-							<img src="assets/image/wedo.jpg" alt="">
+							<img class="wedo__img" src="assets/image/wedo.jpg" alt="">
 					</div>
 
 					<div class="wedo__item">
@@ -226,7 +221,7 @@
 							<div class="accordion">
 									<div class="accordion__item">
 											<div class="accordion__header">
-													<img class="accordion__icon" src="assets/images/services/photography.png" alt="">
+													<img class="accordion__icon" src="/assets/image/service/photography.png" alt="">
 													<div class="accordion__title">Photography</div>
 											</div>
 											<div class="accordion__content">
@@ -236,7 +231,7 @@
 
 									<div class="accordion__item active">
 											<div class="accordion__header">
-													<img class="accordion__icon" src="assets/images/services/creativity.png" alt="">
+													<img class="accordion__icon" src="/assets/image/service/creativity.png" alt="">
 													<div class="accordion__title">Creativity</div>
 											</div>
 											<div class="accordion__content">
@@ -246,7 +241,7 @@
 
 									<div class="accordion__item">
 											<div class="accordion__header">
-													<img class="accordion__icon" src="assets/images/services/webdesign.png" alt="">
+													<img class="accordion__icon" src="/assets/image/service/webdesign.png" alt="">
 													<div class="accordion__title">web design</div>
 											</div>
 											<div class="accordion__content">
@@ -293,7 +288,7 @@
 			<div class="card__item">
 				<div class="card__inner">
 					<div class="card__img">
-						<img class="team__photo" src="assets/image/team/photo_2023-09-13_21-20-30.jpg" alt="">
+						<img class="team__photo" src="assets/image/team/photo_2023-11-01_17-20-33.jpg" alt="">
 					</div>
 					<div class="card__text">
 						<div class="social">
@@ -310,7 +305,7 @@
 								<i class="fa-brands fa-pinterest-p"></i>
 							</a>
 	
-							<a class="social__item" href="#" target="_blank">
+							<a class="social__item" href="https://instagram.com/danila_luchnik?igshid=NzZlODBkYWE4Ng==" target="_blank">
 								<i class="fa-brands fa-instagram"></i>
 							</a>
 						</div>
